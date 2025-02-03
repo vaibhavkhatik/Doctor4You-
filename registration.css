@@ -1,0 +1,54 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.r-div{
+    height: 100vh;
+   
+}
+.l-div{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+form{
+  width: 500px;  
+}
+.forgot_password{
+    margin-bottom: 10px;
+    float: right;
+    clear: both;
+}
+.forgot_password:hover{
+    color: red;
+}
+.input_filed{
+    background-color: transparent;
+    border: none;
+   
+    border-bottom: 2px rgb(17, 43, 189) solid;
+   font-size: 16px;
+}
+.login_heading{
+    margin-bottom: 70px;
+}
+.login_heading span{
+    color: green;
+    font-weight: bold;
+}
+.sign_up a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+@media (max-width:760px){
+    .r-div{
+        display: none;
+    }
+    form{
+        width: 90%;  
+      }
+}

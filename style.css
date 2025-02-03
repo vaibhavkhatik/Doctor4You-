@@ -1,0 +1,355 @@
+
+/* ------------------------Utility Classes----------------- */
+
+.sm-heading{
+    color: orange;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.title{
+    font-size: 3.2rem;
+    background: -webkit-linear-gradient(#eee, rgb(10, 141, 218));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position : relative;
+    display:inline-block;
+}
+.title1{
+    font-size: 3.2rem;
+    background: -webkit-linear-gradient(#eee, rgb(10, 141, 218));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title::after {
+    content : "";
+    position : absolute;
+    width : 100%;
+    height : 3px;
+    background-color:orange;
+    bottom: 0;
+    left: 0;
+    transition : transform 0.25s linear;
+} 
+
+.title::after {
+    transform : scaleX(0);
+}
+
+.title:hover::after {
+    transform : scaleX(1);
+}
+
+.tag-lines{
+    color: rgb(247, 114, 6);
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.sm-para{
+    font-weight: 400;
+    color: gray;
+}
+
+.bg-ylo{
+    background-color: rgba(245, 255, 200, 0.425);
+}
+
+
+/* ------------------------Navbar Section----------------- */
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar{
+    background: rgb(2,0,36);
+    background: linear-gradient(142deg, rgba(2,0,36,1) 0%, rgba(71,138,208,1) 0%, rgba(48,52,219,1) 10%, rgba(0,212,255,1) 68%, rgba(79,129,203,1) 88%);
+    padding: 0 !important;
+}
+
+.navbar-nav{
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.dropdown-item{
+    background: rgb(2,0,36);
+    background: linear-gradient(142deg, rgba(2,0,36,1) 0%, rgba(71,138,208,1) 0%, rgba(48,52,219,1) 10%, rgba(0,212,255,1) 68%, rgba(79,129,203,1) 88%);
+}
+
+.navbar-brand img{
+    height: 4rem;
+    padding-left:2rem;
+}
+
+.navbar-nav li{
+    padding:0 10px;
+}
+
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+}  
+
+.navbar-nav li a:hover{
+    padding-bottom: 1px;
+    border-bottom: 1px solid white;
+}
+
+.nav-item{
+    font-size: 1.15rem;
+}
+
+/* ------------------------banner section----------------- */
+
+#banner{
+    background: rgb(2,0,36);
+    background: linear-gradient(142deg, rgba(2,0,36,1) 0%, rgba(71,138,208,1) 0%, rgba(48,52,219,1) 10%, rgba(0,212,255,1) 68%, rgba(79,129,203,1) 88%);
+    padding-top: 2%; 
+}
+
+.banner .container{
+    height: auto;
+}
+
+.promo-title{
+    font-size: 3.8rem;
+    font-weight: 700;
+    color: white;
+}
+
+.promo-para{
+    color: rgb(243, 235, 197);
+}
+
+.play-btn{
+    width:75px;
+    margin:10px 20px 0px 0px;
+}
+
+#banner a{
+    color: white;
+}
+
+.bottom-img{
+    width: 100%;
+}
+
+#banner .col-md-4{
+    height: 100%;
+    border : 2px solid red;
+}
+
+.f-img{
+    width: 100%;
+}
+
+
+
+.btn-grad {background-image: linear-gradient(to right, #FF512F 0%, #F09819  51%, #FF512F  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 8px 20px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 10 rgb(255, 254, 254);
+   border-color: rgb(255, 198, 93);
+   border-radius: 2.5rem;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+
+/* ------------------------service section----------------- */
+
+.service-img{
+    height:12rem;
+}
+
+.service-img-1{
+    padding: 1.5rem;
+}
+
+
+
+.center-img{
+    width: 100%;
+}
+
+#services{
+    box-sizing: border-box;
+}
+
+.exp-box{
+    box-sizing: border-box;
+    /* background: rgb(231, 220, 181);s */
+    border-radius: 2rem ;
+}
+
+/* -------------------why-us Section----------------- */
+
+#why{
+
+}
+
+
+#why-us ul {
+    padding-left: 2rem;
+    list-style-type: none;
+  }
+  
+  #why-us ul li {
+    color: rgb(109, 109, 109);
+    font-size: 1.5rem;
+    padding-left: 3.2rem;
+    background-image: url("../images/client.jpg");
+    background-position: 0 0;
+    background-size: 3.2rem 3.2rem;
+    background-repeat: no-repeat;
+  }
+  
+.why-img{
+    width: 100%;
+}
+
+/* -------------------Review Section----------------- */
+
+#reviews{
+    
+    height: auto;
+    width: 100%;
+}
+
+
+.reimg{
+    width: 100%;
+}
+
+.repara{
+    border: 1px solid wheat;
+    border-radius: 3.5rem;
+    background-color: whitesmoke;
+    box-shadow:
+    inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+.reauthor{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgb(85, 72, 133);
+}
+
+/* -------------------Sonsers Section----------------- */
+
+.item{
+    height: 200px;
+    width: 100%;
+}
+
+#sponsers{
+    background-color:honeydew;
+}
+
+.sponser_img{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.img_about{
+width: 200px;
+height: 200px;
+}
+
+.sponser_img:hover{
+filter:grayscale(100%);
+}
+
+.side_img{
+height: 300px;
+width: 400px;
+} */
+
+/* -------------------Contact Section----------------- */
+
+
+ img{
+    width: 60px;
+    height: 100px;
+    transition: 0.5s;
+    
+}
+
+.contact-icons a:hover img{
+    transform : translateY(-10px); 
+
+}
+
+/* -------------------Invite Section----------------- */
+#invite{
+    height:auto;
+    width: 100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(142deg, rgba(2,0,36,1) 0%, rgba(71,138,208,1) 0%, rgba(48,52,219,1) 10%, rgba(0,212,255,1) 68%, rgba(79,129,203,1) 88%);
+}
+
+.invite-title{
+    color: #fff;
+}
+
+.register-btn{
+    font-size: 5rem;
+}
+
+
+
+/* -------------------Footer Section----------------- */
+
+#footer{
+    height: auto;
+    background: rgb(2,0,36);
+    background: linear-gradient(142deg, rgba(2,0,36,1) 0%, rgba(71,138,208,1) 0%, rgba(48,52,219,1) 10%, rgba(0,212,255,1) 68%, rgba(79,129,203,1) 88%);
+    color: white;
+}
+
+.footer-form{
+    height: auto;
+    border-top: 0.6rem solid brown;
+    border-bottom: 0.6rem solid brown;
+}
+
+.footer-list li{
+    margin-bottom: 1rem;
+}
+
+.footer-list a{
+    color: white;
+    font-weight: 600;
+}
+
+.footer-list a:hover{
+    color: rgba(235, 212, 0, 0.37);
+    border-bottom: 1px solid white;
+}
+
+.f-title{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+
+
+

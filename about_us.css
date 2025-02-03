@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar{
+    background: rgb(2,0,36);
+    background: linear-gradient(142deg, rgba(2,0,36,1) 0%, rgba(71,138,208,1) 0%, rgba(48,52,219,1) 10%, rgba(0,212,255,1) 68%, rgba(79,129,203,1) 88%);
+    padding: 0 !important;
+}
+
+.navbar-nav{
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.dropdown-item{
+    background: rgb(2,0,36);
+    background: linear-gradient(142deg, rgba(2,0,36,1) 0%, rgba(71,138,208,1) 0%, rgba(48,52,219,1) 10%, rgba(0,212,255,1) 68%, rgba(79,129,203,1) 88%);
+}
+
+.navbar-brand img{
+    height: 4rem;
+    padding-left:2rem;
+}
+
+.navbar-nav li{
+    padding:0 10px;
+}
+
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+}  
+
+.navbar-nav li a:hover{
+    padding-bottom: 1px;
+    border-bottom: 1px solid white;
+}
+
+.nav-item{
+    font-size: 1.15rem;
+}
+
+#whowe{
+    height: 90vh;
+    width: 100vw;
+    background : linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url("../images/plb.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.ab-img{
+    width:100%;
+    box-shadow: 5px 5px 5px rgba(3, 213, 250, 0.463);
+    -moz-box-shadow: 5px 5px 5px rgb(3, 213, 250, 0.463);
+    -webkit-box-shadow: 5px 5px 5px rgb(3, 213, 250, 0.463);
+    -khtml-box-shadow: 5px 5px 5px rgb(3, 213, 250, 0.463);
+}
+
+.abt-title{
+    font-size: 4.2rem;
+    font-weight: 650;
+    color: white;
+}
+
+.abt-para{
+    color: white;
+    font-size: 1.6rem;
+    font-weight:500;
+}
+
+
+.header{
+    background: linear-gradient(rgb(0, 0,0, 0.5),rgb(0, 0,0, 0.5),rgb(0, 0,0, 0.5)), url('building.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+.nav_div{
+    background:transparent;
+    color: white;
+}
+.nav_list li a{
+    color: white;
+}
+#link{
+    color: white;
+    font-size: 19px;
+}
+#title{
+    color: orange;
+    font-size: 24px;
+    font-weight: bold;
+}
+.travel_plan img{
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        margin: auto;
+}
+.travel_plan{
+    display: flex;
+    ;
+}
+.travel_detail{
+    height: 300px;
+}
+.sponser_img{
+    width: 300px;
+    height: 100px;
+}
+.img_about{
+    width: 200px;
+    height: 200px;
+}
+.sponser_img:hover{
+    filter:grayscale(100%);
+}
+.side_img{
+    height: 300px;
+    width: 400px;
+}
+.wave{
+    height: 200px;
+    background-image: url(https://png.pngitem.com/pimgs/s/203-2030946_blue-wave-blue-wave-line-hd-png-download.png);
+    background-position: center;
+    background-size: cover;
+}
+
+/* -------------------Footer Section----------------- */
+
+#footer{
+    height: auto;
+    background: rgb(2,0,36);
+    background: linear-gradient(142deg, rgba(2,0,36,1) 0%, rgba(71,138,208,1) 0%, rgba(48,52,219,1) 10%, rgba(0,212,255,1) 68%, rgba(79,129,203,1) 88%);
+    color: white;
+}
+
+.footer-form{
+    height: auto;
+    border-top: 0.6rem solid brown;
+    border-bottom: 0.6rem solid brown;
+}
+
+.footer-list li{
+    margin-bottom: 1rem;
+}
+
+.footer-list a{
+    color: white;
+    font-weight: 600;
+}
+
+.footer-list a:hover{
+    color: rgba(235, 212, 0, 0.37);
+    border-bottom: 1px solid white;
+}
+
+.f-title{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
